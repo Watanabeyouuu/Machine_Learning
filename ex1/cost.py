@@ -73,7 +73,7 @@ def gradientDescent(X, y, theta, alpha, iters):  # 这个部分实现了Ѳ的更
 alpha = 0.01
 iters = 1500
 g, costG = gradientDescent(X, y, theta, alpha, iters)
-print(costG)
+print(g)
 
 predict1 = [1, 3.5] * g.T
 print("predict1:", predict1)
