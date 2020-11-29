@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np11
 import matplotlib.pyplot as plt
 import sklearn
 import sklearn.datasets
@@ -96,7 +96,7 @@ def compute_cost(A2, Y, parameters):
     cost = np.sum(np.multiply(np.log(A2), Y) + np.multiply((1 - Y), np.log(1 - A2))) * (- 1 / m)
     print(cost)
 
-    cost = float(np.squeeze(cost))  # makes sure cost is the dimension we expect. 
+    cost = float(np.squeeze(cost))  # makes sure cost is the dimension we expect.
     print(cost)  # E.g., turns [[17]] into 17
     assert(isinstance(cost, float))
 
