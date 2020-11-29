@@ -1,4 +1,4 @@
-import numpy as np11
+import numpy as np
 import matplotlib.pyplot as plt
 import sklearn
 import sklearn.datasets
